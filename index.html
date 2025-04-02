@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- GOOGLE FONTS END -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/vecteezy_red-heart-symbol-on-transparent-background_18868329.png">
+    <title>V&B</title>
+</head>
+<body>
+    
+    <main>
+        <div id="pergunta">
+            <h1>Você me ama?</h1>
+            <button id="botao-sim">Sim</button>
+            <button onclick="alert('Resposta errada! Tente de novo 😡')">Não</button>
+        </div>
+
+        <div class="galeria" id="galeria">
+            <div id="galeria-container">
+                <p>Surpresa!! resposta certa, tbm te amo 💕</p>
+                <div class="slide">
+                    <img id="imagem-slide" src="" alt="Imagem">
+                </div>
+                <button id="anterior">&#10094;</button>
+                <button id="proximo">&#10095;</button>
+            </div>
+        </div>
+
+        <div>
+            <audio id="musica"src="audios/Would You Fall In Love With Me Again – Epic the musical (tradução).mp3"></audio>
+        </div>
+
+    </main>
+
+    <script src="menu.js"></script>
+
+</body>
+</html>

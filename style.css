@@ -1,0 +1,80 @@
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+main h1{
+    color: whitesmoke;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+main p{
+    color: #111;
+    font-size: 20px;
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/* Esconde a galeria até o clique */
+.galeria {
+    display: none;
+}
+
+/* Ajusta a galeria ao centro */
+#galeria-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide {
+    width: 300px; 
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+/* Garante que a imagem preencha o espaço */
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Botões */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.bg-animado {
+    background: url("imagens/3AE8.gif") no-repeat center center fixed;
+    background-size: cover;
+}
